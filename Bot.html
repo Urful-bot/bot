@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StochCandle Bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #007BFF;
+        }
+        .features, .how-it-works, .pricing, .contact, .faq {
+            margin-bottom: 40px;
+        }
+        .features ul, .faq ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features li, .faq li {
+            background-color: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea, .contact button {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>StochCandle Bot</h1>
+        <p>Автоматический торговый бот для MetaTrader 5</p>
+    </header>
+
+    <div class="container">
+        <!-- Описание бота -->
+        <section class="features">
+            <h2>Преимущества бота</h2>
+            <ul>
+                <li>📈 Использует комбинацию Stochastic и ATR для точных сигналов.</li>
+                <li>🛡️ Низкий риск благодаря встроенному Stop Loss и Take Profit.</li>
+                <li>⚙️ Простая настройка и использование.</li>
+                <li>📊 Подходит для всех валютных пар и таймфреймов.</li>
+            </ul>
+        </section>
+
+        <!-- Как это работает -->
+        <section class="how-it-works">
+            <h2>Как это работает</h2>
+            <p>
+                Бот анализирует рынок с помощью индикатора Stochastic и ATR. Он автоматически открывает и закрывает сделки,
+                следуя заданной стратегии. Вы можете настроить параметры риска, размер лота и другие параметры под свои нужды.
+            </p>
+        </section>
+
+        <!-- Цены -->
+        <section class="pricing">
+            <h2>Цены</h2>
+            <p>Стоимость бота: <strong>$199</strong></p>
+            <p>Для покупки свяжитесь с нами через форму ниже.</p>
+        </section>
+
+        <!-- Контакты -->
+        <section class="contact">
+            <h2>Свяжитесь с нами</h2>
+            <form action="pronin.68.nikolay@gmail,com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea name="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq">
+            <h2>Часто задаваемые вопросы</h2>
+            <ul>
+                <li>
+                    <strong>Как установить бота?</strong>
+                    <p>После покупки вы получите файл .ex5 и подробную инструкцию по установке.</p>
+                </li>
+                <li>
+                    <strong>Какие платформы поддерживаются?</strong>
+                    <p>Бот работает на MetaTrader 5.</p>
+                </li>
+                <li>
+                    <strong>Есть ли гарантия?</strong>
+                    <p>Да, мы предоставляем 30-дневную гарантию возврата средств.</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 StochCandle Bot. Все права защищены.</p>
+    </footer>
+</body>
+</html>
